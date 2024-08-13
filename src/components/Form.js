@@ -97,7 +97,7 @@ const Form = () => {
         <>
             {/* conditional rendering if flag becomes true means 
             if all the validation conditions are true and form is submitted */}
-            <h1>{flag ? <p>{userInfo.username}, you have registered successfully</p> : ""}</h1>
+            {/* <h1>{flag ? <p>{userInfo.username}, you have registered successfully</p> : ""}</h1> */}
             
             <div className='form-container'>
                 <form className='form' onSubmit={submitForm}>
